@@ -1,4 +1,4 @@
-package br.com.igorbag.githubsearch.ui
+package br.com.isabelaathayde.githubsearch.ui
 
 import android.content.Intent
 import android.net.Uri
@@ -7,10 +7,10 @@ import android.widget.Button
 import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
-import br.com.igorbag.githubsearch.ui.adapter.RepositoryAdapter
-import br.com.igorbag.githubsearch.R
-import br.com.igorbag.githubsearch.data.GitHubService
-import br.com.igorbag.githubsearch.domain.Repository
+import br.com.isabelaathayde.githubsearch.ui.adapter.RepositoryAdapter
+import br.com.isabelaathayde.githubsearch.R
+import br.com.isabelaathayde.githubsearch.data.GitHubService
+import br.com.isabelaathayde.githubsearch.domain.Repository
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

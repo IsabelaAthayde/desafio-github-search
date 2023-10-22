@@ -1,4 +1,4 @@
-package br.com.igorbag.githubsearch
+package br.com.isabelaathayde.githubsearch
 
 import org.junit.Test
 

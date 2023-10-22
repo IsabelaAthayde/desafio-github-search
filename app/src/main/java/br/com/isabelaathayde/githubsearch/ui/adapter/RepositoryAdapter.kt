@@ -1,11 +1,11 @@
-package br.com.igorbag.githubsearch.ui.adapter
+package br.com.isabelaathayde.githubsearch.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import br.com.igorbag.githubsearch.R
-import br.com.igorbag.githubsearch.domain.Repository
+import br.com.isabelaathayde.githubsearch.R
+import br.com.isabelaathayde.githubsearch.domain.Repository
 import android.widget.ImageButton
 import android.widget.TextView
 
