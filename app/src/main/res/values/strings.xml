@@ -1,5 +1,8 @@
 <resources>
-    <string name="app_name">GitHubSearch</string>
+    <string name="app_name"></string>
+    <string name="search_label">GitHubSearch</string>
     <string name="nome_usuario">Nome do usuário</string>
     <string name="confirmar">Confirmar</string>
+    <string name="compartilhar">Compartilhar</string>
+    <string name="favoritar">Favoritar</string>
 </resources>

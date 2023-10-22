@@ -9,6 +9,15 @@
         <include .../>
         <exclude .../>
         -->
+        <!-- Include the SharedPreferences where the username is stored -->
+        <include domain="sharedpref" name="MyPrefs" />
+
+        <!-- Exclude specific data or content that you don't want to be backed up -->
+        <exclude domain="sharedpref" name="MyPrefs" path="key_to_exclude" />
+
+        <!-- Customize additional includes or excludes as needed -->
+        <!-- <include .../> -->
+        <!-- <exclude .../> -->
     </cloud-backup>
     <!--
     <device-transfer>

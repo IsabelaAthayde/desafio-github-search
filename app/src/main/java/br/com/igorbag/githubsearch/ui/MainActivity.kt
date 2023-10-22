@@ -117,12 +117,12 @@ class MainActivity : AppCompatActivity() {
          */
         val adapter = RepositoryAdapter(list)
         adapter.carItemLister = { repository ->
-            // Coloque aqui a ação que deseja realizar no clique do item
-            shareRepositoryLink(repository.htmlUrl)
+            // direciona para o link do item/repositorio
+            openBrowser(repository.htmlUrl)
         }
         adapter.btnShareLister = { repository ->
             // Coloque aqui a ação que deseja realizar no clique do botão Share
-            openBrowser(repository.htmlUrl)
+            shareRepositoryLink(repository.htmlUrl)
         }
         listaRepositories.adapter = adapter
     }
